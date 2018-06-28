@@ -1,0 +1,21 @@
+
+ul#gallery-metabox-list{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+#gallery-metabox-list li {
+	flex-grow: 1; 
+	max-width: 100px;
+	border: 1px solid #cfcfcf;
+	padding: 1px; 
+	text-align: center;
+	margin: 10px 10px 10px 0;
+	cursor: move;
+}
+
+#gallery-metabox-list li img.image-preview{
+	max-width: 100px;
+
+}
